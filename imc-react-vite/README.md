@@ -1,69 +1,85 @@
-# React + TypeScript + Vite
+# Projeto IMC - React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto foi desenvolvido como parte da disciplina da Pós em **Modern Web Development**, com foco em **SPA (Single Page Application)** utilizando **React** com **Vite**.
 
-Currently, two official plugins are available:
+O objetivo da aplicação é **calcular o Índice de Massa Corporal (IMC)**, exibindo o resultado e destacando a classificação correspondente de forma interativa e amigável.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **React** (com Hooks e Context API)
+- **Vite** (ambiente de desenvolvimento rápido e otimizado)
+- **TypeScript**
+- **CSS Modules** para estilização
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## ⚙️ Funcionalidades
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- Inserir altura e peso para calcular o IMC
+- Exibir resultado numérico do IMC
+- Destacar na tabela a faixa correspondente ao valor calculado
+- SPA: Navegação fluida sem recarregar a página
+
+---
+
+## 📦 Como Executar o Projeto
+
+Clone o repositório:
+
+```
+git clone https://github.com/dev-rafael92as/ModernWebDevelopment.git
+cd ModernWebDevelopment/imc-react-vite
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Instale as dependências:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
 ```
+Copiar código
+npm install
+```
+
+Execute o servidor de desenvolvimento:
+
+```
+Copiar código
+npm run dev
+```
+
+Abra no navegador:
+http://localhost:5173
+
+## 📊 Exemplo de Uso
+
+Informe altura (em metros) e peso (em kg).
+
+Clique em Calcular.
+
+O sistema exibirá o resultado e destacará a classificação na tabela de IMC.
+
+## 👥 Integrantes do Grupo
+
+- **Bruna Luiza Rodrigues de Lima** - bruna.luiza@aluno.faculdadeimpacta.com.br
+
+- **Erick Cavalcante** - erick.cavalcante@aluno.faculdadeimpacta.com.br
+
+- **Felipe Laus** - felipe.laus@aluno.faculdadeimpacta.com.br
+
+- **Filipe Monteiro** - filipe.monteiro@aluno.faculdadeimpacta.com.br
+
+- **Gabriel Martins Paz** - gabriel.paz@aluno.faculdadeimpacta.com.br
+
+- **João Victor Braga** - joao.soares@aluno.faculdadeimpacta.com.br
+
+- **José Vitor Silva** - jose.svitor@aluno.faculdadeimpacta.com.br
+
+- **Marcelo Almeida Josef Kubart** - marcelo.kubart@aluno.faculdadeimpacta.com.br
+
+- **Paulo Cesar** - paulo.hora@aluno.faculdadeimpacta.com.br
+
+- **Rafael Barros de Almeida e Silva** - rafael.abarros@aluno.faculdadeimpacta.com.br
+
+- **Yasmin Fermino de Andrade Silva** - yasmin.fermino@aluno.faculdadeimpacta.com.br
+
+### 📌 Obs: Esse projeto foi desenvolvido em grupo como exercício prático para consolidar os conceitos aprendidos em sala.
