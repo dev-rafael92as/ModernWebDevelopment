@@ -1,4 +1,3 @@
-
 export function calculaImc(height: number, weight: number) {
   return fetch("http://localhost:3000/imc/calculate", {
     method: "POST",

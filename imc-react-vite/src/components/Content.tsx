@@ -14,7 +14,7 @@ export function Content() {
 			</div>
 			<div className="data">
 				<p>
-					Seu IMC &eacute; <span id="imc"></span>
+					Seu IMC &eacute; <span id="imc">{imc != 0 ? imc : null}</span>
 				</p>
 				{imc > 0 && <IMCTable />}
 			</div>

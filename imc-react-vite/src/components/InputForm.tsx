@@ -16,7 +16,7 @@ export function InputForm({
 	setValue,
 }: InputProps) {
 	function handleChange(event: ChangeEvent<HTMLInputElement>) {
-		setValue(Number(event.target.value));
+		setValue(Number(event.target.value.replaceAll(",", ".")));
 	}
 
 	return (

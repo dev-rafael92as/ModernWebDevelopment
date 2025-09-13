@@ -4,6 +4,7 @@ import { SubmitButton } from "./SubmitButton";
 
 export function Form() {
 	const { setHeight, setWeight } = useIMC();
+
 	return (
 		<form>
 			<InputForm
