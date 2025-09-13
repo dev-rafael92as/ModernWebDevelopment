@@ -82,4 +82,4 @@ O sistema exibirá o resultado e destacará a classificação na tabela de IMC.
 
 - **Yasmin Fermino de Andrade Silva** - yasmin.fermino@aluno.faculdadeimpacta.com.br
 
-### 📌 Obs: Esse projeto foi desenvolvido em grupo como exercício prático para consolidar os conceitos aprendidos em sala.
+📌 Obs: Esse projeto foi desenvolvido em grupo como exercício prático para consolidar os conceitos aprendidos em sala.
