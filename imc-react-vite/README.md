@@ -1,8 +1,8 @@
 # Projeto IMC - React + Vite
 
-Este projeto foi desenvolvido como parte da disciplina da Pós em **Modern Web Development**, com foco em **SPA (Single Page Application)** utilizando **React** com **Vite**.
+Este projeto foi desenvolvido como parte da disciplina da Pós em **Modern Web Development**, com foco em **SPA (Single Page Application)** utilizando **React** com **Vite**. Onde foi necessário atualizar o [projeto IMC](https://github.com/prof-emilio-resende/basics) para que seja utilizado React com Vite.
 
-O objetivo da aplicação é **calcular o Índice de Massa Corporal (IMC)**, exibindo o resultado e destacando a classificação correspondente de forma interativa e amigável.
+O objetivo da aplicação é **calcular o Índice de Massa Corporal (IMC)**, exibindo o resultado e destacando a classificação correspondente de forma interativa e amigável. Utilizando a API desenvolvida em sala disponível em [API](https://prof-emilio-resende@github.com/prof-emilio-resende/learn-express.git).
 
 ---
 
@@ -36,14 +36,12 @@ cd ModernWebDevelopment/imc-react-vite
 Instale as dependências:
 
 ```
-Copiar código
 npm install
 ```
 
 Execute o servidor de desenvolvimento:
 
 ```
-Copiar código
 npm run dev
 ```
 
